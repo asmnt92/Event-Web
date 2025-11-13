@@ -21,7 +21,7 @@ def check_participant(user,event_id):
     return user.events.filter(id=event_id)
 
 def is_user(user):
-    return user.groups.filter(name='User').exists()
+    return user.groups.filter(name='Participant').exists()
 
 @login_required(login_url='users:sign-in')
 @permission_required('event_app.add_event',login_url='guest-page')

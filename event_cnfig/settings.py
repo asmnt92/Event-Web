@@ -159,4 +159,4 @@ EMAIL_HOST_PASSWORD = config('EMAIL_HOST_PASSWORD')
 
 # for frontend url
 
-FRONTEND_URL='http://127.0.0.1:8000/'
+FRONTEND_URL='https://event-web-zigi.onrender.com'
